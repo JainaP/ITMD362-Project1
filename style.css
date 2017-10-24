@@ -311,20 +311,16 @@ select {
 	padding-top: 3px;
 	}
 	#form{
-		margin:auto;
-		border:solid;
+		
+		display:flex;
+		flex-flow: row wrap;
+		justify-content:center;
 	}
 }
 
 @media screen and (min-width: 720px)
 {
-	#leftside{
-	width:55%;
-	float: left;
-		
-	}
-	#rightside{
-	width:55%;
+	
 	
 	
 		

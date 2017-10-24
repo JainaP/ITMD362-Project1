@@ -12,9 +12,11 @@
 	<h1>Welcome to JP Developer Site</h1>
   <p class="companyhead">Below is the sign up form to get the latest news on our company!</p>
   <p class="companyhead">This is a subscription to our yearly magazine and emails on latest news</p>
-  <form id="myForm" method="get" action="#null" autocomplete="on">
+	
+	<div id="form">
+	<form id="myForm" method="GET" action="#null" autocomplete="on" enctype="multipart/form-data">
   <fieldset>
-    
+	<div id="leftside">
 	<p>
 	  <label for="first_name"><img src="pics/firstlastname.png" alt="smile face" width="15" height="15">First Name: </label><input type="text" name="first_name" id="first_name" placeholder="Jaina" required>
 	</p>
@@ -27,7 +29,8 @@
 	<p>
 	  <label for="email_confirm"><img src="pics/emailconfirm.png" alt="email" width="15" height="15">Confirm: </label><input type="email" name="email_confirm" id="email_confirm" onblur="confirmEmail()" placeholder="jp@devsite.com" required>
 	</p>
-	
+	</div>
+	<div id="rightside">
 	<p>
 	  <label for="street_address"><img src="pics/address.png" alt="pindrop" width="15" height="15">Street Address: </label><input type="text" name="street_address" id="street_address" placeholder="123 State St." required>
 	</p>
@@ -96,13 +99,13 @@
 	  <option value="WI">Wisconsin</option>
 	  <option value="WY">Wyoming</option>	
 	  </select>
-	  
-	  
+	  </div>
+	  </div>
 	
   </fieldset>
     <div id="buttons">
-      <input type="submit" value="Submit">
-      <input type="reset" value="Reset">
+      <input type="submit" value="Subscribe" onclick = "submit()">
+
     </div>
   </form>
 	

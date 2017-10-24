@@ -299,8 +299,36 @@ select {
 	label{
 		font-size:1.5em;
 	}
+	#leftside{
+	width:40%;
+	float: left;
+	
+	}
+	#rightside{
+	width:40%;
+	float:right;
+		
+	padding-top: 3px;
+	}
+	#form{
+		margin:auto;
+		border:solid;
+	}
+}
+
+@media screen and (min-width: 720px)
+{
+	#leftside{
+	width:55%;
+	float: left;
+		
+	}
+	#rightside{
+	width:55%;
 	
 	
+		
+	}
 }
 
 /* Clear floats after the columns 

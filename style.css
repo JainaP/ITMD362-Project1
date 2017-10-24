@@ -219,7 +219,7 @@ textarea {
 
 body{
   line-height:1;
-  
+  font: Garamond, ‘Hoefler Text’, ‘Times New Roman’, Times, serif;
   background-color: #8eafaf;
   color: #544D0E;
 }
@@ -299,7 +299,12 @@ select {
 	label{
 		font-size:1.5em;
 	}
-	#leftside{
+
+}
+
+@media screen and (min-width: 720px)
+{
+		#leftside{
 	width:40%;
 	float: left;
 	
@@ -311,21 +316,12 @@ select {
 	padding-top: 3px;
 	}
 	#form{
-		
 		display:flex;
 		flex-flow: row wrap;
 		justify-content:center;
 	}
 }
 
-@media screen and (min-width: 720px)
-{
-	
-	
-	
-		
-	}
-}
 
 /* Clear floats after the columns 
 .row:after {

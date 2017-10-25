@@ -240,6 +240,7 @@ h1{
 	line-height:2.354em; /* added a line-height of 2.074 for company head*/
 	text-align:center;
 	padding-top:5px;
+	font-weight:bold;
 }
 
 label{

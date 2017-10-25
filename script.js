@@ -1,8 +1,8 @@
-	function submit(){
-    document.getElementById("myForm").onsubmit = function() {submitpopup()}
+	
+  
     function submitpopup(){
 	  alert("The form has been submitted");
-		}}
+		}
 	
 	
 	function confirmEmail() {
